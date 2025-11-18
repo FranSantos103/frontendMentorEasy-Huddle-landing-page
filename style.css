@@ -94,6 +94,7 @@ body {
     background-image: url("images/bg-mobile.svg");
     text-align: center;
     padding: 10px;
+    overflow: hidden;
   }
 
 .logo {
@@ -146,6 +147,10 @@ a img {
 
 
 @media (max-width: 320px){ 
+body{
+  overflow: auto;
+}
+
 .logo {
     width: 40%;
     margin-bottom: 5px;
